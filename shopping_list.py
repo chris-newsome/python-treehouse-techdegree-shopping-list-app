@@ -4,13 +4,13 @@ import os
 shopping_list = []
 
 def clear_screen():
-"""Function that uses the OS module to clear the screen when the user wants to play again"""
+    """Function that uses the OS module to clear the screen when the user wants to play again"""
 
     os.system("cls" if os.name == "nt" else "clear")
 
 # Function that adds items to the list
 def add_to_list(item):
-"""Function that adds items to the list"""
+    """Function that adds items to the list"""
 
     show_list()
 
@@ -42,7 +42,7 @@ def add_to_list(item):
     show_list()
 
 def show_list():
-"""Function to show user the list in its current state"""
+    """Function to show user the list in its current state"""
 
     clear_screen()
 
@@ -59,8 +59,8 @@ def show_list():
 
     print("-"*10)
 
-# Function to prompt the user about items in the cart
 def show_help():
+    """Function to prompt the user about items in the cart"""
 
     clear_screen()
 
