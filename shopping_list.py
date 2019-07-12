@@ -8,7 +8,6 @@ def clear_screen():
 
     os.system("cls" if os.name == "nt" else "clear")
 
-# Function that adds items to the list
 def add_to_list(item):
     """Function that adds items to the list"""
 
