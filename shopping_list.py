@@ -18,6 +18,7 @@ def add_to_list(item):
         position = input("Where should I add {}?\n"
             "Press ENTER to add to the end of the list\n"
                 "> ".format(item))
+                
     else:
 
         position = 0
